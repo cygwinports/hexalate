@@ -1,0 +1,63 @@
+hexalate
+------------------------------------------
+Hexalate is a color matching game. The goal of the game is to rotate and 
+position the circles so that each touching line matches in color. You 
+rotate circles by right clicking, and you move circles by dragging them. 
+The game stores the positions and rotations of the circles across runs.
+
+Runtime requirements:
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libQtCore4-4.4.3-10
+  libQtGui4-4.4.3-10
+  libstdc++6-4.3.2-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
+
+Canonical website:
+  http://gottcode.org/hexalate/
+
+Canonical download:
+  http://gottcode.org/hexalate/
+
+-------------------------------------------
+
+Build instructions:
+  unpack hexalate-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./hexalate-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/hexalate-1.0.0-X-src.tar.bz2
+  /usr/src/hexalate-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/hexalate.sh
+  /usr/bin/hexalate.exe
+  /usr/share/applications/hexalate.desktop
+  /usr/share/doc/hexalate/COPYING
+  /usr/share/doc/hexalate/ChangeLog
+  /usr/share/doc/hexalate/README
+  /usr/share/icons/hicolor/48x48/apps/hexalate.png
+
+------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
