@@ -1,5 +1,5 @@
 category: Games KDE
-requires: cygwin libgcc1 libQtCore4 libQtGui4 libstdc++6
+requires: libgcc1 libQtCore4 libQtGui4 libstdc++6
 sdesc: "Qt4 color matching game"
 ldesc: "Hexalate is a color matching game. The goal of the game is to 
 rotate and position the circles so that each touching line matches in 
