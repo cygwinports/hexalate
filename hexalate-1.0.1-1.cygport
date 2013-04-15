@@ -1,7 +1,0 @@
-inherit qt4-qmake
-
-DESCRIPTION="Color matching game for Qt4"
-HOMEPAGE="http://gottcode.org/hexalate/"
-SRC_URI="http://gottcode.org/hexalate/${P}-src.tar.bz2"
-
-CYGQMAKE4_ARGS="PREFIX=/usr"
