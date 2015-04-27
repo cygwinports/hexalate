@@ -1,8 +1,8 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="hexalate"
 VERSION=1.0.3
-RELEASE=1
+RELEASE=2
 CATEGORY="Games"
 SUMMARY="Qt color matching game"
 DESCRIPTION="Hexalate is a color matching game. The goal of the game is to
@@ -12,4 +12,4 @@ The game stores the positions and rotations of the circles across runs."
 HOMEPAGE="http://gottcode.org/hexalate/"
 SRC_URI="http://gottcode.org/hexalate/${NAME}-${VERSION}-src.tar.bz2"
 
-CYGQMAKE4_ARGS="PREFIX=/usr"
+CYGQMAKE5_ARGS="PREFIX=/usr"
