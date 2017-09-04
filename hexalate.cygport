@@ -1,7 +1,7 @@
 inherit qt5-qmake
 
 NAME="hexalate"
-VERSION=1.1.0
+VERSION=1.1.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Qt color matching game"
